@@ -7,6 +7,7 @@ const Menu = [
     children: [
       { path: "/table/elements", title: "Table Elements" },
       { path: "/table/plugins", title: "Table Plugins" },
+      { path: "/table/plugins1", title: "Table Plugins1" },
     ],
   },
   /*

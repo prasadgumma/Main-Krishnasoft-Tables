@@ -6,6 +6,7 @@ import Error from "./../pages/error/error.js";
 import TableElements from "../components/tables/table-elements.js";
 import TablePlugins from "../components/tables/table-plugins.js";
 import { Outlet } from "react-router-dom";
+import MembersTable from "../components/tables/table-plugins1.js";
 
 const AppRoute = [
   {
@@ -20,6 +21,7 @@ const AppRoute = [
         children: [
           { path: "elements", element: <TableElements /> },
           { path: "plugins", element: <TablePlugins /> },
+          { path: "plugins1", element: <MembersTable /> },
           // { path: '*', element: <ExtraError /> }
         ],
       },
